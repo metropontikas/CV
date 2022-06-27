@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Century Gothic", Georgia;
+}
+body {
+  display: flex;
+  margin: 2rem auto;
+  max-width: 700px;
+  box-shadow: 0px 0px 3px 0px black;
+  padding: 2rem;
+  border-left: 85px solid transparent !important;
+  gap: 3rem;
+}
+header {
+  position: relative;
+  color: #1a409a;
+  padding-bottom: 2rem;
+}
+.monogram {
+  position: absolute;
+  left: -103px;
+  top: 0;
+  bottom: 0;
+}
+#name {
+  width: 50%;
+}
+pre {
+  white-space: pre-wrap;
+}
+.heading {
+  position: relative;
+}
+.heading__icon {
+  position: absolute;
+  left: -40px;
+  top: -4px;
+}
+circle {
+  fill: #1a409a;
+}
+path {
+  fill: #fff;
+}
+a {
+  color: #0000009c;
+}
+.year {
+  position: absolute;
+  margin-left: 0;
+  width: 65px;
+  left: -120px;
+  line-height: 18px;
+}
+.section {
+  padding: 1rem 0;
+  color: #1a409a;
+  border-left: 1px solid #d7d7d7;
+  margin-left: 12px;
+  padding-left: 25px;
+  position: relative;
+  padding-top: 0;
+}
+.content {
+  position: relative;
+  margin-top: 1.5rem;
+  color: #000c;
+}
+.comments {
+  padding-bottom: 0.3rem;
+}
+.content p,
+.year {
+  font-size: 0.9rem;
+}
+.content::before {
+  background: #1a409a;
+  border: 0;
+  border-radius: 100%;
+  content: "";
+  display: block;
+  height: 8px;
+  left: -29px;
+  position: absolute;
+  width: 8px;
+  z-index: 2;
+  top: 5px;
+}
+.section2 > p {
+  padding-bottom: 1rem;
+}
+.heading2 {
+  display: flex;
+  padding-bottom: 0.5rem;
+}
+.heading2 h3 {
+  padding-left: 1rem;
+  color: #1a409a;
+}
+.content2 {
+  padding-bottom: 0.4rem;
+  display: flex;
+  flex-direction: column;
+}
+.rating {
+  align-self: end;
+}
+.default-fill {
+  fill: #d5d0d0;
+}
