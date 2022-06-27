@@ -1,3 +1,6 @@
+1.1.1
+--small fixes
+
 1.1
 --Added responsiveness
 
