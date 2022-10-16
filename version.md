@@ -1,3 +1,6 @@
+1.2
+~Updated work experience
+
 1.1.2
 ~Added previous work experience, with comments
 ~Removed tech stack level of knowledge
