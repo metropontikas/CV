@@ -1,3 +1,12 @@
+1.3
+~ Update profession,
+~ Update summary,
+~ Update current and past work experience,
+~ Add career transition period,
+~ Add new seminar attended,
+~ Update some past seminars with their certifiactes,
+~ Update skills and tech stack.
+
 1.2
 ~Updated work experience
 
