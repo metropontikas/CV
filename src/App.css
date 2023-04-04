@@ -118,13 +118,9 @@ a {
   .col-1 {
     border-left: 85px solid transparent;
   }
-  .col-2 {
+  .RightColumn {
     display: flex;
     flex-direction: column;
     align-items: center;
-  }
-  #contact,
-  #skills {
-    text-align: center;
   }
 }

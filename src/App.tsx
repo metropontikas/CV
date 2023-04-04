@@ -369,7 +369,7 @@ function App() {
           </div>
         </div>
       </div>
-      <div className="col-2">
+      <div className="RightColumn">
         <SectionAlt icon={<ContactSVG />} title="Contact">
           {contactMedia.map((medium) => (
             <ContactMedium

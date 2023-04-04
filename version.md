@@ -1,3 +1,6 @@
+2.14.1
+~ Minor UI Adjustments
+
 2.14.0
 ~ Update Contact section code with new components
 
