@@ -1,3 +1,6 @@
+2.1.0
+~ Create TextWrapper to replace "content2" div
+
 2.0.0
 ~ Upgrade codebase to React+Typescript using Vite
 ~ Basic adjustments to accomodate new code
