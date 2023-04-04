@@ -1,3 +1,6 @@
+2.12.0
+~ Update Skills section code with new components
+
 2.11.3
 ~ Change TechStack section icon
 
