@@ -1,3 +1,6 @@
+2.3.0
+~ Install SASS library
+
 2.2.0
 ~ Transform contact svg to component
 
