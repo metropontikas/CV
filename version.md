@@ -1,3 +1,6 @@
+2.4.0
+~ Create Types file TS
+
 2.3.0
 ~ Install SASS library
 
