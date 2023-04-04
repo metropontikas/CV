@@ -34,3 +34,13 @@ export interface ContactMediumProps {
   type?: string;
   placeholder?: string;
 }
+
+export interface HeaderWrapperProps {
+  name: string;
+  profession: string;
+  initials: string;
+}
+
+export interface MonogramWrapperProps {
+  children: ReactNode;
+}

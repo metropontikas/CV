@@ -1,3 +1,6 @@
+2.43.0
+~ Create HeaderWrapper Component to replace header tag
+
 2.42.0
 ~ Create MonogramWrapper Component
 
