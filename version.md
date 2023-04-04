@@ -1,3 +1,6 @@
+2.11.0
+~ Update Languages section code with new components
+
 2.10.0
 ~ Create some rating categories Components
 

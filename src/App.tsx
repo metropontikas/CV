@@ -1,11 +1,14 @@
 // Components
 import TextWrapper from "./components/TextWrapper/TextWrapper";
-// Assets
-import aboutMe from "./assets/aboutMe.svg";
-import "./App.css";
-import AboutMeSVG from "./assets/svgComponents/ContactSVG";
 import HeadingAlt from "./components/HeadingAlt/HeadingAlt";
 import SectionAlt from "./components/SectionAlt/SectionAlt";
+import BasicRating from "./components/Ratings/BasicRating";
+import ExcellentRating from "./components/Ratings/ExcellentRating";
+// Assets
+import LanguageSVG from "./assets/svgComponents/LanguageSVG";
+import AboutMeSVG from "./assets/svgComponents/ContactSVG";
+// Styles
+import "./App.css";
 
 const techStack = [
   "React.js",
@@ -389,96 +392,22 @@ function App() {
             <TextWrapper text={tech} />
           ))}
         </SectionAlt>
-        <div className="section2" id="languages">
-          <div className="heading2">
-            <div className="heading__icon2">
-              <svg width="30px" height="30px" viewBox="0 0 54 54">
-                <circle cx="27" cy="27" r="26"></circle>
-                <path
-                  transform="translate(11,11)"
-                  d="M31.85 27.626c-1.38-3.684-3.906-4.604-5.973-4.835-1.608-.23-3.216-.92-3.905-1.38v-2.533c1.838-2.302 2.986-5.295 2.986-7.828C24.958 4.835 21.972 0 16 0c-5.972 0-8.958 5.065-8.958 11.05 0 2.763 1.148 5.756 2.986 7.828v2.762c-.69.46-2.297.921-3.905 1.382-2.067.23-4.364 1.15-5.972 4.834-.23.46-.23 1.151.23 1.612C1.759 31.54 9.798 32 16 32c6.432 0 14.241-.46 15.62-2.532.459-.46.459-1.151.23-1.842zM16 1.842c4.594 0 7.152 4.394 7.152 9.228-.28 4.546-2.666 8.112-7.232 8.456-4.449-.462-6.926-4.804-7.04-8.573 0-4.604 2.526-9.111 7.12-9.111zm0 28.086c-12.174 0-14.012-1.611-14.012-1.611 1.149-2.993 2.757-3.454 4.365-3.684 1.837-.23 3.675-.92 4.594-1.381l.918-.46v-2.073c1.149.921 2.527 1.382 4.135 1.382 1.378 0 2.756-.46 3.905-1.382v2.072l.919.46c.918.461 2.756 1.152 4.594 1.382 1.607.23 3.215.69 4.364 3.684.23 0-1.608 1.611-13.782 1.611z"
-                ></path>
-              </svg>
-            </div>
-            <h3>Languages</h3>
-          </div>
-          <div className="content2">
-            <p>Greek</p>
-            <div className="rating">
-              <svg width="80px" height="30px" viewBox="0 0 500 100">
-                <circle cx="50" cy="50" r="40" fill="#373d48"></circle>
-                <circle cx="150" cy="50" r="40" fill="#373d48"></circle>
-                <circle cx="250" cy="50" r="40" fill="#373d48"></circle>
-                <circle cx="350" cy="50" r="40" fill="#d5d6d6"></circle>
-                <circle cx="450" cy="50" r="40" fill="#d5d6d6"></circle>
-              </svg>
-              <p>Native Speaker</p>
-            </div>
-          </div>
-          <div className="content2">
-            <p>French</p>
-            <div className="rating">
-              <svg width="80px" height="30px" viewBox="0 0 500 100">
-                <circle cx="50" cy="50" r="40" fill="#373d48"></circle>
-                <circle cx="150" cy="50" r="40" fill="#373d48"></circle>
-                <circle cx="250" cy="50" r="40" fill="#373d48"></circle>
-                <circle cx="350" cy="50" r="40" fill="#d5d6d6"></circle>
-                <circle cx="450" cy="50" r="40" fill="#d5d6d6"></circle>
-              </svg>
-              <p>Excellent</p>
-            </div>
-          </div>
-          <div className="content2">
-            <p>English</p>
-            <div className="rating">
-              <svg width="80px" height="30px" viewBox="0 0 500 100">
-                <circle cx="50" cy="50" r="40" fill="#373d48"></circle>
-                <circle cx="150" cy="50" r="40" fill="#373d48"></circle>
-                <circle cx="250" cy="50" r="40" fill="#373d48"></circle>
-                <circle cx="350" cy="50" r="40" fill="#d5d6d6"></circle>
-                <circle cx="450" cy="50" r="40" fill="#d5d6d6"></circle>
-              </svg>
-              <p>Excellent</p>
-            </div>
-          </div>
-          <div className="content2">
-            <p>Spanish</p>
-            <div className="rating">
-              <svg width="80px" height="30px" viewBox="0 0 500 100">
-                <circle cx="50" cy="50" r="40" fill="#373d48"></circle>
-                <circle
-                  cx="150"
-                  cy="50"
-                  r="40"
-                  fill="#373d48"
-                  className="default-fill"
-                ></circle>
-                <circle
-                  cx="250"
-                  cy="50"
-                  r="40"
-                  fill="#373d48"
-                  className="default-fill"
-                ></circle>
-                <circle
-                  cx="350"
-                  cy="50"
-                  r="40"
-                  fill="#d5d6d6"
-                  className="default-fill"
-                ></circle>
-                <circle
-                  cx="450"
-                  cy="50"
-                  r="40"
-                  fill="#d5d6d6"
-                  className="default-fill"
-                ></circle>
-              </svg>
-              <p>Basic</p>
-            </div>
-          </div>
-        </div>
+
+        <SectionAlt id="languages">
+          <HeadingAlt icon={<LanguageSVG />} title="Languages" />
+          <TextWrapper text="Greek">
+            <ExcellentRating nativeSpeaker />
+          </TextWrapper>
+          <TextWrapper text="French">
+            <ExcellentRating />
+          </TextWrapper>
+          <TextWrapper text="English">
+            <ExcellentRating />
+          </TextWrapper>
+          <TextWrapper text="Spanish">
+            <BasicRating />
+          </TextWrapper>
+        </SectionAlt>
       </div>
     </div>
   );
