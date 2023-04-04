@@ -1,3 +1,6 @@
+2.9.0
+~ Create Wrapper for 'rating' div
+
 2.8.0
 ~ Create Components for the rest of the svgs
 
