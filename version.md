@@ -1,3 +1,6 @@
+2.11.2
+~ Set specific size for svg components
+
 2.11.1
 ~ Encompass HeadingAlt inside SectionAlt
 

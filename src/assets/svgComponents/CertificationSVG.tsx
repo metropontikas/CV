@@ -1,6 +1,6 @@
 const CertificationSVG = () => {
   return (
-    <svg viewBox="0 0 54 54">
+    <svg width="30px" height="30px" viewBox="0 0 54 54">
       <circle cx="27" cy="27" r="27"></circle>
       <path
         transform="translate(11,11)"
