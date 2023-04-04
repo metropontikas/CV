@@ -1,3 +1,6 @@
+2.42.0
+~ Create MonogramWrapper Component
+
 2.14.1
 ~ Minor UI Adjustments
 

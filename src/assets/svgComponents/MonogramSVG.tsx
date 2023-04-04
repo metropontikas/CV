@@ -18,3 +18,4 @@ const MonogramSVG = ({ initials }: MonogramSVGProps) => {
     </svg>
   );
 };
+export default MonogramSVG;
