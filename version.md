@@ -1,3 +1,6 @@
+1.3.1
+~ Reduce total length by cutting back on text size and removing redudant seminars.
+
 1.3
 ~ Update profession,
 ~ Update summary,
