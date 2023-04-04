@@ -16,7 +16,8 @@ export interface HeadingAltProps {
 
 export interface SectionAltProps {
   children: ReactNode;
-  id: string;
+  icon: JSX.Element;
+  title: string;
 }
 
 export interface RatingWrapperProps {

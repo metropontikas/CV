@@ -386,15 +386,13 @@ function App() {
           <p>Organisational skills</p>
           <p>Problem solver</p>
         </div>
-        <SectionAlt id="tech-stack">
-          <HeadingAlt icon={<AboutMeSVG />} title="Tech Stack" />
+        <SectionAlt icon={<AboutMeSVG />} title="Tech Stack">
           {techStack.map((tech) => (
             <TextWrapper text={tech} />
           ))}
         </SectionAlt>
 
-        <SectionAlt id="languages">
-          <HeadingAlt icon={<LanguageSVG />} title="Languages" />
+        <SectionAlt icon={<LanguageSVG />} title="Languages">
           <TextWrapper text="Greek">
             <ExcellentRating nativeSpeaker />
           </TextWrapper>
