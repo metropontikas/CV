@@ -1,3 +1,6 @@
+2.11.3
+~ Change TechStack section icon
+
 2.11.2
 ~ Set specific size for svg components
 

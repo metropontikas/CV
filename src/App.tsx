@@ -6,7 +6,7 @@ import BasicRating from "./components/Ratings/BasicRating";
 import ExcellentRating from "./components/Ratings/ExcellentRating";
 // Assets
 import LanguageSVG from "./assets/svgComponents/LanguageSVG";
-import AboutMeSVG from "./assets/svgComponents/ContactSVG";
+import SoftwareSVG from "./assets/svgComponents/SoftwareSVG";
 // Styles
 import "./App.css";
 
@@ -386,7 +386,7 @@ function App() {
           <p>Organisational skills</p>
           <p>Problem solver</p>
         </div>
-        <SectionAlt icon={<AboutMeSVG />} title="Tech Stack">
+        <SectionAlt icon={<SoftwareSVG />} title="Tech Stack">
           {techStack.map((tech) => (
             <TextWrapper text={tech} />
           ))}
