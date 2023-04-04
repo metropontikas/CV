@@ -1,3 +1,6 @@
+2.2.0
+~ Transform contact svg to component
+
 2.1.0
 ~ Create TextWrapper to replace "content2" div
 
