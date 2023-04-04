@@ -1,3 +1,6 @@
+2.8.0
+~ Create Components for the rest of the svgs
+
 2.7.1
 ~ Move svg to new subfolder
 

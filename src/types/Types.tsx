@@ -1,5 +1,9 @@
 import { ReactNode } from "react";
 
+export interface MonogramSVGProps {
+  initials: string;
+}
+
 export interface TextWrapperProps {
   text: string;
 }
