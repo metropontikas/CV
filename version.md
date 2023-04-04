@@ -1,3 +1,6 @@
+2.14.0
+~ Update Contact section code with new components
+
 2.13.0
 ~ Create ContactMedium Component
 
