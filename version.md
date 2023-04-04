@@ -1,3 +1,6 @@
+2.44.0
+~ Update Header with new Components
+
 2.43.0
 ~ Create HeaderWrapper Component to replace header tag
 

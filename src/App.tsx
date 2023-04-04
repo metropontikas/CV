@@ -5,11 +5,13 @@ import SectionAlt from "./components/SectionAlt/SectionAlt";
 import BasicRating from "./components/Ratings/BasicRating";
 import ExcellentRating from "./components/Ratings/ExcellentRating";
 import ContactMedium from "./components/ContactMedium/ContactMedium";
+import HeaderWrapper from "./components/HeaderWrapper/HeaderWrapper";
 // Assets
 import LanguageSVG from "./assets/svgComponents/LanguageSVG";
 import SoftwareSVG from "./assets/svgComponents/SoftwareSVG";
 import SkillsSVG from "./assets/svgComponents/SkillsSVG";
 import ContactSVG from "./assets/svgComponents/ContactSVG";
+import MonogramSVG from "./assets/svgComponents/MonogramSVG";
 // Styles
 import "./App.css";
 
@@ -68,25 +70,11 @@ function App() {
   return (
     <div className="docWrapper">
       <div className="col-1">
-        <header>
-          <div className="monogram">
-            <svg height="86px" width="86px">
-              <circle cx="43px" cy="43px" r="43px" fill="#003D74"></circle>
-              <text
-                text-anchor="middle"
-                x="60px"
-                y="68px"
-                fill="#fff"
-                font-size="20px"
-                id="SUBSTR_FALN"
-              >
-                VP
-              </text>
-            </svg>
-          </div>
-          <h1 id="name">Vasilis Pontikakis</h1>
-          <p id="profession">React developer</p>
-        </header>
+        <HeaderWrapper
+          initials="VP"
+          name="Vasilis Pontikakis"
+          profession="React developer"
+        />
         <div className="section" id="summary">
           <div className="heading">
             <div className="heading__icon">
