@@ -3,10 +3,11 @@ import { TextWrapperProps } from "../../types/Types";
 // Styles
 import "./TextWrapper.scss";
 
-const TextWrapper = ({ text }: TextWrapperProps) => {
+const TextWrapper = ({ text, children }: TextWrapperProps) => {
   return (
     <div className="TextWrapper">
       <p>{text}</p>
+      {children}
     </div>
   );
 };

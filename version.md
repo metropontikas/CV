@@ -1,3 +1,6 @@
+2.10.0
+~ Create some rating categories Components
+
 2.9.0
 ~ Create Wrapper for 'rating' div
 

@@ -6,6 +6,7 @@ export interface MonogramSVGProps {
 
 export interface TextWrapperProps {
   text: string;
+  children?: ReactNode;
 }
 
 export interface HeadingAltProps {
@@ -16,4 +17,12 @@ export interface HeadingAltProps {
 export interface SectionAltProps {
   children: ReactNode;
   id: string;
+}
+
+export interface RatingWrapperProps {
+  children: ReactNode;
+}
+
+export interface ExcellentRatingProps {
+  nativeSpeaker?: boolean;
 }
