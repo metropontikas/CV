@@ -1,6 +1,7 @@
+// Types
 import { TextWrapperProps } from "../../types/Types";
-
-import "./TextWrapper.css";
+// Styles
+import "./TextWrapper.scss";
 
 const TextWrapper = ({ text }: TextWrapperProps) => {
   return (

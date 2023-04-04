@@ -1,3 +1,8 @@
+2.4.1
+~ Update TextWrapper Component
+~~ Rename css file to scss
+~~ Reflect stylesheet changes to component
+
 2.4.0
 ~ Create Types file TS
 
