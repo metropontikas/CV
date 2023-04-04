@@ -1,3 +1,6 @@
+2.6.0
+~ Create SectionAlt Component to replace 'section2' div
+
 2.5.0
 ~ Create HeadingAlt Component to replace 'heading2' div
 
