@@ -1,3 +1,8 @@
+2.0.0
+~ Upgrade codebase to React+Typescript using Vite
+~ Basic adjustments to accomodate new code
+~ Create folder with legcay code
+
 1.3.1
 ~ Reduce total length by cutting back on text size and removing redudant seminars.
 
