@@ -1,3 +1,6 @@
+2.5.0
+~ Create HeadingAlt Component to replace 'heading2' div
+
 2.4.1
 ~ Update TextWrapper Component
 ~~ Rename css file to scss
