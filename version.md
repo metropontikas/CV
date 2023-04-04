@@ -1,3 +1,7 @@
+2.7.0
+~ Update Tech-Stack section with new components
+~~ Create an techStack array that is mapped for its values
+
 2.6.0
 ~ Create SectionAlt Component to replace 'section2' div
 
