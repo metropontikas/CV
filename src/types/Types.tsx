@@ -27,3 +27,10 @@ export interface RatingWrapperProps {
 export interface ExcellentRatingProps {
   nativeSpeaker?: boolean;
 }
+
+export interface ContactMediumProps {
+  title: string;
+  link: string;
+  type?: string;
+  placeholder?: string;
+}

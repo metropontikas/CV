@@ -1,3 +1,6 @@
+2.13.0
+~ Create ContactMedium Component
+
 2.12.0
 ~ Update Skills section code with new components
 
