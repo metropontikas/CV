@@ -1,3 +1,6 @@
+2.7.1
+~ Move svg to new subfolder
+
 2.7.0
 ~ Update Tech-Stack section with new components
 ~~ Create an techStack array that is mapped for its values
