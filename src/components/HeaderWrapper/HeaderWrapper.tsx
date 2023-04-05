@@ -3,7 +3,7 @@ import MonogramWrapper from "./MonogramWrapper/MonogramWrapper";
 // Types
 import { HeaderWrapperProps } from "../../types/Types";
 // Assets
-import MonogramSVG from "../../assets/svgComponents/MonogramSVG";
+import MonogramSVG from "../SVGComponents/MonogramSVG";
 //Styles
 import "./HeaderWrapper.scss";
 

@@ -1,3 +1,8 @@
+2.48.1
+~ Move svg assets to public folder
+~ Move svg components to components folder
+~ Update paths
+
 2.48.0
 ~ Move input arrays to separate component and import it in app.tsx
 

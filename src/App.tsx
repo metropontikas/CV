@@ -16,14 +16,14 @@ import { TextWrapper } from "./components/TextWrapper/TextWrapper";
 import { HeaderWrapper } from "./components/HeaderWrapper/HeaderWrapper";
 import { ContactMedium } from "./components/ContactMedium/ContactMedium";
 // Assets
-import LanguageSVG from "./assets/svgComponents/LanguageSVG";
-import SoftwareSVG from "./assets/svgComponents/SoftwareSVG";
-import SkillsSVG from "./assets/svgComponents/SkillsSVG";
-import ContactSVG from "./assets/svgComponents/ContactSVG";
-import EducationSVG from "./assets/svgComponents/EducationSVG";
-import CertificationSVG from "./assets/svgComponents/CertificationSVG";
-import WorkExperienceSVG from "./assets/svgComponents/WorkExperienceSVG";
-import AboutMeSVG from "./assets/svgComponents/AboutMeSVG";
+import LanguageSVG from "./components/SVGComponents/LanguageSVG";
+import SoftwareSVG from "./components/SVGComponents/SoftwareSVG";
+import SkillsSVG from "./components/SVGComponents/SkillsSVG";
+import ContactSVG from "./components/SVGComponents/ContactSVG";
+import EducationSVG from "./components/SVGComponents/EducationSVG";
+import CertificationSVG from "./components/SVGComponents/CertificationSVG";
+import WorkExperienceSVG from "./components/SVGComponents/WorkExperienceSVG";
+import AboutMeSVG from "./components/SVGComponents/AboutMeSVG";
 // Helper Methods
 import { ratingHelper } from "./HelperMethods/RatingsHelper";
 // Styles
