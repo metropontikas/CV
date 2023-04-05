@@ -1,3 +1,6 @@
+2.47.3
+~ Remove vite icon from tab
+
 2.47.2
 ~ Clean up code
 ~ Abstract and map more code logic
