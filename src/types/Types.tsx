@@ -4,20 +4,32 @@ export interface MonogramSVGProps {
   initials: string;
 }
 
-export interface TextWrapperProps {
+export interface TextWrapperProps
+  extends TextWrapperHeaderProps,
+    DateWrapperProps,
+    TextContentProps,
+    RegionWrapperProps,
+    LinkProps {
+  children?: ReactNode;
+  alt?: boolean;
+}
+export interface TextWrapperAltProps {
   text: string;
   children?: ReactNode;
 }
 
-export interface HeadingAltProps {
+export interface HeadingProps {
   icon: JSX.Element;
-  title: string;
+  title?: string;
+  alt?: boolean;
 }
 
 export interface SectionAltProps {
   children: ReactNode;
   icon: JSX.Element;
-  title: string;
+  title?: string;
+  alt?: boolean;
+  altHeading?: boolean;
 }
 
 export interface RatingWrapperProps {
@@ -43,4 +55,32 @@ export interface HeaderWrapperProps {
 
 export interface MonogramWrapperProps {
   children: ReactNode;
+}
+
+export interface RegionWrapperProps {
+  region?: string;
+}
+
+export interface DateWrapperProps {
+  dateStart?: string;
+  dateEnd?: string;
+  isPresent?: boolean;
+}
+
+export interface TextWrapperHeaderProps {
+  title?: string;
+}
+
+export interface TextContentProps {
+  content?: string;
+  styledContent?: string;
+}
+
+export interface SVGComponentProps {
+  absolute?: boolean;
+}
+
+export interface LinkProps {
+  href?: string;
+  linkText?: string;
 }

@@ -1,3 +1,6 @@
+2.45.1
+~ Add types
+
 2.45.0
 ~ Create components for dates, links, headers, content and regions
 ~ Refactor TextWrapper to encompass above components and conditionally show them, along with conditional styling
