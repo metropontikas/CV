@@ -1,4 +1,23 @@
 .TextWrapper {
+  position: relative;
+  margin-top: 1.5rem;
+  color: #000c;
+}
+.TextWrapper::before {
+  background: #1a409a;
+  border: 0;
+  border-radius: 100%;
+  content: "";
+  display: block;
+  height: 8px;
+  left: -29px;
+  position: absolute;
+  width: 8px;
+  z-index: 2;
+  top: 5px;
+}
+
+.TextWrapperAlt {
   padding-bottom: 0.4rem;
   display: flex;
   flex-direction: column;
