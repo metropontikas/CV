@@ -7,7 +7,11 @@ import MonogramSVG from "../../assets/svgComponents/MonogramSVG";
 //Styles
 import "./HeaderWrapper.scss";
 
-const HeaderWrapper = ({ name, profession, initials }: HeaderWrapperProps) => {
+export const HeaderWrapper = ({
+  name,
+  profession,
+  initials,
+}: HeaderWrapperProps) => {
   return (
     <header>
       <MonogramWrapper>
@@ -18,5 +22,3 @@ const HeaderWrapper = ({ name, profession, initials }: HeaderWrapperProps) => {
     </header>
   );
 };
-
-export default HeaderWrapper;

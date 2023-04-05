@@ -2,7 +2,7 @@
 import { ExcellentRatingProps } from "../../types/Types";
 import RatingWrapper from "./RatingWrapper";
 
-const ExcellentRating = ({ nativeSpeaker }: ExcellentRatingProps) => {
+export const ExcellentRating = ({ nativeSpeaker }: ExcellentRatingProps) => {
   const text = nativeSpeaker ? "Native Speaker" : "Excellent";
   return (
     <RatingWrapper>
@@ -17,4 +17,3 @@ const ExcellentRating = ({ nativeSpeaker }: ExcellentRatingProps) => {
     </RatingWrapper>
   );
 };
-export default ExcellentRating;

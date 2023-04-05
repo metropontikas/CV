@@ -1,3 +1,6 @@
+2.45.3
+~ Change export method for some components
+
 2.45.2
 ~ Small adjustments
 

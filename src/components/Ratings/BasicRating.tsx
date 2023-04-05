@@ -3,7 +3,7 @@ import RatingWrapper from "./RatingWrapper";
 // Styles
 import "./GreyCircle.scss";
 
-const BasicRating = () => {
+export const BasicRating = () => {
   return (
     <RatingWrapper>
       <svg width="80px" height="30px" viewBox="0 0 500 100">
@@ -41,5 +41,3 @@ const BasicRating = () => {
     </RatingWrapper>
   );
 };
-
-export default BasicRating;

@@ -1,7 +1,7 @@
 // Types
 import { ContactMediumProps } from "../../types/Types";
 
-const ContactMedium = ({
+export const ContactMedium = ({
   title,
   link,
   type = "",
@@ -16,4 +16,3 @@ const ContactMedium = ({
     </>
   );
 };
-export default ContactMedium;
