@@ -1,3 +1,6 @@
+2.48.0
+~ Move input arrays to separate component and import it in app.tsx
+
 2.47.3
 ~ Remove vite icon from tab
 
