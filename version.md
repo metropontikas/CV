@@ -1,3 +1,6 @@
+2.44.1
+~ Add conditional class for svg components
+
 2.44.0
 ~ Update Header with new Components
 
