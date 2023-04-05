@@ -16,6 +16,7 @@ import WorkExperienceSVG from "./assets/svgComponents/WorkExperienceSVG";
 import AboutMeSVG from "./assets/svgComponents/AboutMeSVG";
 // Styles
 import "./App.css";
+import { ratingHelper } from "./HelperMethods/RatingsHelper";
 
 const workExperience = [
   {
@@ -173,6 +174,13 @@ const techStack = [
   "CSS",
 ];
 
+const langugages = [
+  { name: "Greek", level: "nativeSpeaker" },
+  { name: "French", level: "excellent" },
+  { name: "English", level: "excellent" },
+  { name: "Spanish", level: "basic" },
+];
+
 function App() {
   return (
     <div className="docWrapper">
@@ -260,18 +268,11 @@ function App() {
         </Section>
 
         <Section alt altHeading icon={<LanguageSVG />} title="Languages">
-          <TextWrapper alt content="Greek">
-            <ExcellentRating nativeSpeaker />
-          </TextWrapper>
-          <TextWrapper alt content="French">
-            <ExcellentRating />
-          </TextWrapper>
-          <TextWrapper alt content="English">
-            <ExcellentRating />
-          </TextWrapper>
-          <TextWrapper alt content="Spanish">
-            <BasicRating />
-          </TextWrapper>
+          {langugages.map((lang) => (
+            <TextWrapper alt content={lang.name}>
+              {ratingHelper(lang.level)}
+            </TextWrapper>
+          ))}
         </Section>
       </div>
     </div>

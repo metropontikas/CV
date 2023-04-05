@@ -1,3 +1,8 @@
+2.47.0
+~ Add the rest of the rating components.
+~ Create helper function to return appropriate rating component
+~ Create languages array and map it
+
 2.46.0
 ~ Replace the rest of the old code in App.tsx with new components.
 ~ Clean up app.css
