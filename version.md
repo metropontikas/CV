@@ -1,3 +1,6 @@
+2.44.3
+~ Refactor Section Component and add conditional class
+
 2.44.2
 ~ Refactor Heading Component and add conditional class
 
