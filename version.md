@@ -1,3 +1,7 @@
+2.46.0
+~ Replace the rest of the old code in App.tsx with new components.
+~ Clean up app.css
+
 2.45.3
 ~ Change export method for some components
 
