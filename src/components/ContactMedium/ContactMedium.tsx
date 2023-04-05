@@ -4,7 +4,7 @@ import { ContactMediumProps } from "../../types/Types";
 const ContactMedium = ({
   title,
   link,
-  type,
+  type = "",
   placeholder,
 }: ContactMediumProps) => {
   return (

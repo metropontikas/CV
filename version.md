@@ -1,3 +1,6 @@
+2.45.2
+~ Small adjustments
+
 2.45.1
 ~ Add types
 

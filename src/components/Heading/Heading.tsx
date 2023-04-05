@@ -8,7 +8,7 @@ export const Heading = ({ icon, title, alt }: HeadingProps) => {
   return (
     <div className={headingClass}>
       {icon}
-      <h4>{title}</h4>
+      {alt ? <h4>{title}</h4> : <h3>{title}</h3>}
     </div>
   );
 };
