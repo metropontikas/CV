@@ -3,8 +3,6 @@ import { Section } from "./components/Section/Section";
 import { TextWrapper } from "./components/TextWrapper/TextWrapper";
 import { HeaderWrapper } from "./components/HeaderWrapper/HeaderWrapper";
 import { ContactMedium } from "./components/ContactMedium/ContactMedium";
-import { BasicRating } from "./components/Ratings/BasicRating";
-import { ExcellentRating } from "./components/Ratings/ExcellentRating";
 // Assets
 import LanguageSVG from "./assets/svgComponents/LanguageSVG";
 import SoftwareSVG from "./assets/svgComponents/SoftwareSVG";
@@ -14,9 +12,19 @@ import EducationSVG from "./assets/svgComponents/EducationSVG";
 import CertificationSVG from "./assets/svgComponents/CertificationSVG";
 import WorkExperienceSVG from "./assets/svgComponents/WorkExperienceSVG";
 import AboutMeSVG from "./assets/svgComponents/AboutMeSVG";
+// Helper Methods
+import { ratingHelper } from "./HelperMethods/RatingsHelper";
 // Styles
 import "./App.css";
-import { ratingHelper } from "./HelperMethods/RatingsHelper";
+
+const headerDetails = {
+  initials: "VP",
+  name: "Vasilis Pontikakis",
+  profession: "React developer",
+};
+
+const summaryText =
+  "JavaScript enthusiast, avid learner of anything computer-related with strong desire to contribute.";
 
 const workExperience = [
   {
@@ -123,6 +131,22 @@ const seminars = [
   },
 ];
 
+const education = [
+  {
+    title: "French Language and Literature",
+    dateStart: "2011",
+    dateEnd: "2017",
+    content: "Aristotle University of Thessaloniki",
+    region: "Thessaloniki, Greece",
+  },
+  {
+    title: "Erasmus+ Exchange Program",
+    dateStart: "2014",
+    dateEnd: "2015",
+    content: "Universite Stendhal-Grenoble 3",
+    region: "Grenoble, France",
+  },
+];
 const contactMedia = [
   {
     title: "Phone",
@@ -186,13 +210,13 @@ function App() {
     <div className="docWrapper">
       <div className="leftColumn">
         <HeaderWrapper
-          initials="VP"
-          name="Vasilis Pontikakis"
-          profession="React developer"
+          initials={headerDetails.initials}
+          name={headerDetails.name}
+          profession={headerDetails.profession}
         />
 
         <Section title="Summary" icon={<AboutMeSVG absolute />}>
-          <TextWrapper content="JavaScript enthusiast, avid learner of anything computer-related with strong desire to contribute." />
+          <TextWrapper content={summaryText} />
         </Section>
 
         <Section title="Experience" icon={<WorkExperienceSVG absolute />}>
@@ -225,20 +249,15 @@ function App() {
         </Section>
 
         <Section title="Education" icon={<EducationSVG absolute />}>
-          <TextWrapper
-            title="French Language and Literature"
-            dateStart="2011"
-            dateEnd="2017"
-            content="Aristotle University of Thessaloniki"
-            region="Thessaloniki, Greece"
-          />
-          <TextWrapper
-            title="Erasmus+ Exchange Program"
-            dateStart="2014"
-            dateEnd="2015"
-            content="Universite Stendhal-Grenoble 3"
-            region="Grenoble, France"
-          />
+          {education.map((edu) => (
+            <TextWrapper
+              title={edu.title}
+              dateStart={edu.dateStart}
+              dateEnd={edu.dateEnd}
+              content={edu.content}
+              region={edu.region}
+            />
+          ))}
         </Section>
       </div>
 

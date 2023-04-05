@@ -1,3 +1,7 @@
+2.47.2
+~ Clean up code
+~ Abstract and map more code logic
+
 2.47.1
 ~ Fix some wrong entries in work experience
 
