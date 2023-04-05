@@ -1,3 +1,6 @@
+2.47.1
+~ Fix some wrong entries in work experience
+
 2.47.0
 ~ Add the rest of the rating components.
 ~ Create helper function to return appropriate rating component

@@ -70,10 +70,10 @@ const workExperience = [
     dateStart: "11/2019",
     dateEnd: "02/2020",
     isPresent: false,
-    href: "https://www.bearinmind.gr/",
+    href: "https://greece.iom.int/",
     linkText: "Bear In Mind",
     styledContent: `Assisted colleagues in their interactions or sessions with the beneficiaries.\nWorked under pressure and assisted colleagues in solving situations that required our attention.`,
-    region: "Thessaloniki, Greece",
+    region: "Polykastro, Greece",
   },
   {
     title: "Caregiver",
@@ -83,7 +83,7 @@ const workExperience = [
     href: "https://arsis.gr/to-spiti-tis-arsis/",
     linkText: " ARSIS - Association for the Social Support of Youth",
     styledContent: `Responsible for organising and facilitating the everyday life of 12 to 18 underage beneficiaries, age 4 to 18, of mixed origins.\nWorked constantly under pressure, learnt to think creatively, while keeping the quality of work.`,
-    region: "Oraiokastro, Greece<",
+    region: "Oraiokastro, Greece",
   },
 ];
 
