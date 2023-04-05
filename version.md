@@ -1,3 +1,6 @@
+2.44.4
+~ Add missed changes
+
 2.44.3
 ~ Refactor Section Component and add conditional class
 
