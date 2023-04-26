@@ -14,7 +14,7 @@ const workExperience = [
     isPresent: true,
     href: "https://codedlines.com/",
     linkText: "CodedLines",
-    styledContent: `Developing mobile apps for the company's clients with React Native's CLI.\nStyling with Styled Components and managing state with Redux Toolkit.\nCI/CD through CircleCI and Fastlane.`,
+    styledContent: `Developing mobile apps for the company's clients with React Native's CLI.\nStyling with Styled Components and managing state with Redux Toolkit.\nTypescript for static typing, CI/CD through CircleCI and Fastlane.`,
     region: "Athens, Greece",
   },
   {

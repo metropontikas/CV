@@ -1,3 +1,6 @@
+2.48.2
+~ Add typscript to codedlines experience
+
 2.48.1
 ~ Move svg assets to public folder
 ~ Move svg components to components folder
