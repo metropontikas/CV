@@ -1,3 +1,8 @@
+2.49.0
+~ Update work experience
+~ Remove phone number
+~ Disable ContactMedium link if no type and link are provided
+
 2.48.2
 ~ Add typscript to codedlines experience
 

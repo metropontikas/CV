@@ -1,86 +1,81 @@
 import { ReactNode } from "react";
 
 export interface MonogramSVGProps {
-  initials: string;
+    initials: string;
 }
 
-export interface TextWrapperProps
-  extends TextWrapperHeaderProps,
-    DateWrapperProps,
-    TextContentProps,
-    RegionWrapperProps,
-    LinkProps {
-  children?: ReactNode;
-  alt?: boolean;
+export interface TextWrapperProps extends TextWrapperHeaderProps, DateWrapperProps, TextContentProps, RegionWrapperProps, LinkProps {
+    children?: ReactNode;
+    alt?: boolean;
 }
 export interface TextWrapperAltProps {
-  text: string;
-  children?: ReactNode;
+    text: string;
+    children?: ReactNode;
 }
 
 export interface HeadingProps {
-  icon: JSX.Element;
-  title?: string;
-  alt?: boolean;
+    icon: JSX.Element;
+    title?: string;
+    alt?: boolean;
 }
 
 export interface SectionAltProps {
-  children: ReactNode;
-  icon: JSX.Element;
-  title?: string;
-  alt?: boolean;
-  altHeading?: boolean;
+    children: ReactNode;
+    icon: JSX.Element;
+    title?: string;
+    alt?: boolean;
+    altHeading?: boolean;
 }
 
 export interface RatingWrapperProps {
-  children: ReactNode;
+    children: ReactNode;
 }
 
 export interface ExcellentRatingProps {
-  nativeSpeaker?: boolean;
+    nativeSpeaker?: boolean;
 }
 
 export interface ContactMediumProps {
-  title: string;
-  link: string;
-  type?: string;
-  placeholder?: string;
+    title: string;
+    link?: string;
+    type?: string;
+    placeholder?: string;
 }
 
 export interface HeaderWrapperProps {
-  name: string;
-  profession: string;
-  initials: string;
+    name: string;
+    profession: string;
+    initials: string;
 }
 
 export interface MonogramWrapperProps {
-  children: ReactNode;
+    children: ReactNode;
 }
 
 export interface RegionWrapperProps {
-  region?: string;
+    region?: string;
 }
 
 export interface DateWrapperProps {
-  dateStart?: string;
-  dateEnd?: string;
-  isPresent?: boolean;
+    dateStart?: string;
+    dateEnd?: string;
+    isPresent?: boolean;
 }
 
 export interface TextWrapperHeaderProps {
-  title?: string;
+    title?: string;
 }
 
 export interface TextContentProps {
-  content?: string;
-  styledContent?: string;
+    content?: string;
+    styledContent?: string;
 }
 
 export interface SVGComponentProps {
-  absolute?: boolean;
+    absolute?: boolean;
 }
 
 export interface LinkProps {
-  href?: string;
-  linkText?: string;
+    href?: string;
+    linkText?: string;
 }
