@@ -75,6 +75,7 @@ function App() {
         <Section title="Education" icon={<EducationSVG absolute />}>
           {education.map((edu) => (
             <TextWrapper
+              key={edu.title}
               title={edu.title}
               dateStart={edu.dateStart}
               dateEnd={edu.dateEnd}
@@ -112,7 +113,7 @@ function App() {
 
         <Section alt altHeading icon={<LanguageSVG />} title="Languages">
           {langugages.map((lang) => (
-            <TextWrapper alt content={lang.name}>
+            <TextWrapper key={lang.name} alt content={lang.name}>
               {ratingHelper(lang.level)}
             </TextWrapper>
           ))}

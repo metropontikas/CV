@@ -1,5 +1,5 @@
 // Types
-import { TextContentProps } from "../../../types/Types";
+import type { TextContentProps } from "../../../types/Types";
 // Style
 import "./TextContent.scss";
 

@@ -1,5 +1,5 @@
 // Types
-import { TextWrapperHeaderProps } from "../../../types/Types";
+import type { TextWrapperHeaderProps } from "../../../types/Types";
 // Styles
 import "./TextWrapperHeader.scss";
 

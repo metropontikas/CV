@@ -1,5 +1,5 @@
 // Components
-import { ExcellentRatingProps } from "../../types/Types";
+import type { ExcellentRatingProps } from "../../types/Types";
 import RatingWrapper from "./RatingWrapper";
 
 export const ExcellentRating = ({ nativeSpeaker }: ExcellentRatingProps) => {
@@ -7,11 +7,12 @@ export const ExcellentRating = ({ nativeSpeaker }: ExcellentRatingProps) => {
   return (
     <RatingWrapper>
       <svg width="80px" height="30px" viewBox="0 0 500 100">
-        <circle cx="50" cy="50" r="40" fill="#373d48"></circle>
-        <circle cx="150" cy="50" r="40" fill="#373d48"></circle>
-        <circle cx="250" cy="50" r="40" fill="#373d48"></circle>
-        <circle cx="350" cy="50" r="40" fill="#d5d6d6"></circle>
-        <circle cx="450" cy="50" r="40" fill="#d5d6d6"></circle>
+        <title>Excellent Rating Icon</title>
+        <circle cx="50" cy="50" r="40" fill="#373d48"/>
+        <circle cx="150" cy="50" r="40" fill="#373d48"/>
+        <circle cx="250" cy="50" r="40" fill="#373d48"/>
+        <circle cx="350" cy="50" r="40" fill="#d5d6d6"/>
+        <circle cx="450" cy="50" r="40" fill="#d5d6d6"/>
       </svg>
       <p>{text}</p>
     </RatingWrapper>

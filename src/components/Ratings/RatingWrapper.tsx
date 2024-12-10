@@ -1,5 +1,5 @@
 // Types
-import { RatingWrapperProps } from "../../types/Types";
+import type { RatingWrapperProps } from "../../types/Types";
 //Styles
 import "./RatingWrapper.scss";
 

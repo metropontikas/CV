@@ -1,5 +1,5 @@
 // Types
-import { ContactMediumProps } from "../../types/Types";
+import type { ContactMediumProps } from "../../types/Types";
 
 export const ContactMedium = ({ title, link = "", type = "", placeholder }: ContactMediumProps) => {
     const isInactiveLink = !type && !link ? "none" : "auto";

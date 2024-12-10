@@ -1,7 +1,7 @@
 // Components
 import MonogramWrapper from "./MonogramWrapper/MonogramWrapper";
 // Types
-import { HeaderWrapperProps } from "../../types/Types";
+import type { HeaderWrapperProps } from "../../types/Types";
 // Assets
 import MonogramSVG from "../SVGComponents/MonogramSVG";
 //Styles

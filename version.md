@@ -1,3 +1,6 @@
+v2.50.1
+~ Fix lint warnings
+
 v2.50.0
  ~ Update work experience
 

@@ -1,7 +1,7 @@
 // Components
 import { Heading } from "../Heading/Heading";
 // Types
-import { SectionAltProps } from "../../types/Types";
+import type { SectionAltProps } from "../../types/Types";
 // Styles
 import "./Section.scss";
 

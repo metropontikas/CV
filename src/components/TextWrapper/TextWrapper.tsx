@@ -5,7 +5,7 @@ import { TextContent } from "./TextContent/TextContent";
 import { RegionWrapper } from "./RegionWrapper/RegionWrapper";
 import { Link } from "./Link/Link";
 // Types
-import { TextWrapperProps } from "../../types/Types";
+import type { TextWrapperProps } from "../../types/Types";
 // Styles
 import "./TextWrapper.scss";
 

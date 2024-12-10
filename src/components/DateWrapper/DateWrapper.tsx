@@ -1,5 +1,5 @@
 // Types
-import { DateWrapperProps } from "../../types/Types";
+import type { DateWrapperProps } from "../../types/Types";
 // Styles
 import "./DateWrapper.scss";
 

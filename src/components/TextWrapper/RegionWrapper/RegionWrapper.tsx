@@ -1,5 +1,5 @@
 // Types
-import { RegionWrapperProps } from "../../../types/Types";
+import type { RegionWrapperProps } from "../../../types/Types";
 
 // Styles
 import "./RegionWrapper.scss";

@@ -1,5 +1,5 @@
 // Types
-import { HeadingProps } from "../../types/Types";
+import type { HeadingProps } from "../../types/Types";
 // Styles
 import "./Heading.scss";
 

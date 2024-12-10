@@ -1,5 +1,5 @@
 // Types
-import { MonogramWrapperProps } from "../../../types/Types";
+import type { MonogramWrapperProps } from "../../../types/Types";
 // Styles
 import "./MonogramWrapper.scss";
 

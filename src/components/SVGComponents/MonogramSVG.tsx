@@ -1,10 +1,11 @@
 // Types
-import { MonogramSVGProps } from "../../types/Types";
+import type { MonogramSVGProps } from "../../types/Types";
 
 const MonogramSVG = ({ initials }: MonogramSVGProps) => {
   return (
     <svg height="86px" width="86px">
-      <circle cx="43px" cy="43px" r="43px" fill="#003D74"></circle>
+      <title>Monogram Icon</title>
+      <circle cx="43px" cy="43px" r="43px" fill="#003D74"/>
       <text
         textAnchor="middle"
         x="60px"

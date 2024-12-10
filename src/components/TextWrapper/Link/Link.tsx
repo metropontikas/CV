@@ -1,5 +1,5 @@
 // Types
-import { LinkProps } from "../../../types/Types";
+import type { LinkProps } from "../../../types/Types";
 // Styles
 import "./Link.scss";
 
