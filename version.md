@@ -1,3 +1,6 @@
+v2.50.0
+ ~ Update work experience
+
 2.49.0
 ~ Update work experience
 ~ Remove phone number

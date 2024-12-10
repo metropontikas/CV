@@ -13,7 +13,7 @@ const workExperience = [
         isPresent: true,
         href: "https://www.prosvasis.com/",
         linkText: "Prosvasis SA",
-        styledContent: `Part of the R&D department, working on the web implementation of the company's software and services.\n\nEnhancing the clients' experience with the company's web app by implementing new business features, resolving bugs both on the front as well as on the back end and improving the app's UI.\n\nImproving the front-end part of the code base by refactoring, simplifying and unifying code logic.\n\nLearning to work with and apply architecture principles and design patterns.`,
+        styledContent: `Part of the R&D department, working on the web implementation of the company's software and services.\n\nEnhancing the clients' experience of the company's web app by implementing new business features, resolving bugs both on the front as well as on the back end and improving the app's UI.\n\nImproving the front-end part of the code base by refactoring, simplifying and unifying code logic.\n\nLearning to work with and apply architecture principles and design patterns.`,
         region: "Athens, Greece",
     },
     {
@@ -40,7 +40,7 @@ const workExperience = [
         dateStart: "01/2022",
         dateEnd: "06/2022",
         isPresent: false,
-        styledContent: `Improved and broadened coding fundamentals.\nWorked on React.js demo projects, using useContext and Redux toolkit, learned GitHub.`,
+        styledContent: "Improved and broadened coding fundamentals.\n\nWorked on React.js demo projects, using useContext and Redux toolkit, learned GitHub.",
         href: "https://www.bearinmind.gr/",
         linkText: "Bear In Mind",
         region: "Thessaloniki, Greece",
@@ -50,7 +50,7 @@ const workExperience = [
         dateStart: "07/2021",
         dateEnd: " 12/2021",
         isPresent: false,
-        styledContent: `Decided to switch careers and jump into web development after failing to find exciting challenges at work.\n\nLearned HTML, CSS, JavaScript through online courses.`,
+        styledContent: "Decided to switch careers and jump into web development after failing to find exciting challenges at work.\n\nLearned HTML, CSS, JavaScript through online courses.",
     },
     {
         title: "Caregiver",
@@ -59,7 +59,7 @@ const workExperience = [
         isPresent: false,
         href: "https://tdh.gr/el",
         linkText: "Terre Des Hommes Hellas",
-        styledContent: `Part of the core of a 10 people team, responsible for organising and facilitating the everyday life of 30 underage beneficiaries of various origins and cultures.Handled unexpected events in the facility, resolved tensions between beneficiaries, and solved multiple challenges at a time.\n\nLearned to overcome language barriers in order to get my message across.\n\nWorked under extreme pressure and tension while keeping a cool head.\n\nTook initiatives to resolve issues and situations that hindered the facility's operational status and/or to achieve our objectives, actively participated in meetings with colleagues and superiors.`,
+        styledContent: `Part of the core of a 10 people team, responsible for organising and facilitating the everyday life of 30 underage beneficiaries of various origins and cultures.Handled unexpected events in the facility, resolved tensions between beneficiaries, and solved multiple challenges at a time.\n\nWorked under extreme pressure and tension while keeping a cool head.\nTook initiatives to resolve issues and situations that hindered the facility's operational status and/or to achieve our objectives, actively participated in meetings with colleagues and superiors.`,
         region: "Veroia, Greece",
     },
     {
@@ -69,7 +69,7 @@ const workExperience = [
         isPresent: false,
         href: "https://greece.iom.int/",
         linkText: "Bear In Mind",
-        styledContent: `Assisted colleagues in their interactions or sessions with the beneficiaries.\nWorked under pressure and assisted colleagues in solving situations that required our attention.`,
+        styledContent: "Assisted colleagues in their interactions or sessions with the beneficiaries.\nWorked under pressure and assisted colleagues in solving situations that required our attention.",
         region: "Polykastro, Greece",
     },
     {
@@ -79,7 +79,7 @@ const workExperience = [
         isPresent: false,
         href: "https://arsis.gr/to-spiti-tis-arsis/",
         linkText: " ARSIS - Association for the Social Support of Youth",
-        styledContent: `Responsible for organising and facilitating the everyday life of 12 to 18 underage beneficiaries, age 4 to 18, of mixed origins.\nWorked constantly under pressure, learnt to think creatively, while keeping the quality of work.`,
+        styledContent: "Responsible for organising and facilitating the everyday life of 12 to 18 underage beneficiaries, age 4 to 18, of mixed origins.\nWorked constantly under pressure, learnt to think creatively, while keeping the quality of work.",
         region: "Oraiokastro, Greece",
     },
 ];
@@ -89,12 +89,6 @@ const seminars = [
         title: "React Native - The Practical Guide",
         dateStart: "03/2023",
         href: "https://www.udemy.com/certificate/UC-11d544f8-9dd6-453d-b5c3-8c7e6f3f2825/",
-        linkText: "Udemy",
-    },
-    {
-        title: "Become a WordPress Developer: Unlocking Power With Code",
-        dateStart: "05/2022",
-        href: "https://www.udemy.com/course/become-a-wordpress-developer-php-javascript/",
         linkText: "Udemy",
     },
     {
@@ -136,6 +130,7 @@ const education = [
         region: "Grenoble, France",
     },
 ];
+
 const contactMedia = [
     {
         title: "Phone",
@@ -170,19 +165,19 @@ const skills = [
 
 const techStack = [
     "React.js",
-    "React Native",
     "Typescript",
+    "SASS",
+    "Bootstrap",
+    ".NET Ccore",
     "JavaScript",
     "Redux.js",
+    "React Native",
     "Styled Components",
     "REST APIs",
-    "SASS",
-    "WordPress",
-    "WooCommerce",
     "Bash",
     "Git",
-    "HTML",
     "CSS",
+    "HTML",
 ];
 
 const langugages = [
