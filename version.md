@@ -1,3 +1,6 @@
+v2.50.2
+~ Update to new yarn
+
 v2.50.1
 ~ Fix lint warnings
 
