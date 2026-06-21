@@ -14,9 +14,11 @@
     flex-direction: column;
     box-shadow: none;
   }
+
   .leftColumn {
     border-left: 85px solid transparent;
   }
+
   .RightColumn {
     display: flex;
     flex-direction: column;

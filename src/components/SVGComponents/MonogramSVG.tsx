@@ -5,7 +5,7 @@ const MonogramSVG = ({ initials }: MonogramSVGProps) => {
   return (
     <svg height="86px" width="86px">
       <title>Monogram Icon</title>
-      <circle cx="43px" cy="43px" r="43px" fill="#003D74"/>
+      <circle cx="43px" cy="43px" r="43px" fill="#003D74" />
       <text
         textAnchor="middle"
         x="60px"

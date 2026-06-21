@@ -7,8 +7,8 @@ export const DecentRating = () => {
     <RatingWrapper>
       <svg width="80px" height="30px" viewBox="0 0 500 100">
         <title>Decent Rating Icon</title>
-        <circle cx="50" cy="50" r="40" fill="#373d48"/>
-        <circle cx="50" cy="50" r="40" fill="#373d48"/>
+        <circle cx="50" cy="50" r="40" fill="#373d48" />
+        <circle cx="50" cy="50" r="40" fill="#373d48" />
         <circle
           cx="250"
           cy="50"
