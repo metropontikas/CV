@@ -9,9 +9,19 @@ const summaryText =
 
 const workExperience = [
   {
+    title: "Frontend Engineer",
+    dateStart: "04/2025",
+    isPresent: true,
+    href: "https://www.shopflix.gr/",
+    linkText: "Shopflix.gr",
+    styledContent:
+      "Maintain and improve the core website and internal tooling by delivering features and fixing bugs.\n\nRefactored and consolidated the codebase to improve performance, clarify implementation intent, and accelerate delivery.",
+    region: "Athens, Greece",
+  },
+  {
     title: "Web Developer",
     dateStart: "08/2023",
-    isPresent: true,
+    dateEnd: "04/2025",
     href: "https://www.prosvasis.com/",
     linkText: "Prosvasis SA",
     styledContent: `Part of the R&D department, working on the web implementation of the company's software and services.\n\nEnhancing the clients' experience of the company's web app by implementing new business features, resolving bugs both on the front as well as on the back end and improving the app's UI.\n\nImproving the front-end part of the code base by refactoring, simplifying and unifying code logic.\n\nLearning to work with and apply architecture principles and design patterns.`,
@@ -171,18 +181,14 @@ const skills = [
 const techStack = [
   "React.js",
   "Typescript",
+  "Next.js",
+  "Tailwind",
   "SASS",
   "Bootstrap",
-  ".NET Ccore",
-  "JavaScript",
+  ".NET Core",
   "Redux.js",
   "React Native",
   "Styled Components",
-  "REST APIs",
-  "Bash",
-  "Git",
-  "CSS",
-  "HTML",
 ];
 
 const langugages = [

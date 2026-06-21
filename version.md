@@ -1,3 +1,6 @@
+v2.51.0
+~ Update work experience & tech stack
+
 v2.50.3
 ~ Format files
 
